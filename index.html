@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumberGuessGame</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>NumberGuess</header>
+    <div class="container">
+        <h1 id="headline">Rate die Zahl!</h1>
+        <h2 id="displayTries">Versuche: 0</h2>
+        <form onsubmit="numberguessfunction(); return false">
+            <input id="NumberInput" type="number" required placeholder="Zahl eingeben">
+            <button type="submit">Raten</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+</body>
+</html>

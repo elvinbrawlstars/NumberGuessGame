@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+#headline{
+    margin: 30px 45px;
+}
+
+#displayTries{
+    margin: 30px 45px;
+}
+
+#NumberInput{
+    height: 35px;
+    background-color: rgb(40,40,40);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 142px;
+
+}
+
+#NumberInput:hover{
+    background-color: rgb(50,50,50);
+
+}
+
+header{
+    background-color: rgb(30,30,30);
+    height: 50px;
+    font-size: 30px;
+    padding: 20px 50px;
+    border: none;
+}
+
+button{
+    background-color: rgb(83, 83, 175);
+    height: 39px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    margin-left: 40px;
+
+}
+
+button:hover{
+    background-color: rgb(111, 111, 189);
+}
